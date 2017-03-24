@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "csv-streamify": "^3.0.4"
+    "csv-streamify": "^3.0.4",
+    "nodegit": "^0.18.0",
+    "through2-concurrent": "^1.1.1"
   }
 }
