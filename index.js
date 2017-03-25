@@ -34,12 +34,13 @@ fs.createReadStream(file)
     repo_download.then(
       function(resolved) {
         console.log(resolved, repo_name);
+        done();
       },
       function(rejected) {
         console.log(rejected, repo_name);
+        done();
       }
     )
-    repo_download.then(done)
     self.push(repo_download)
 
 }))
